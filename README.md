@@ -5,6 +5,6 @@
 - *GeeksForGeeks*
 - *Carrercup*
 - *Glassdoor*
-- *leetcode*
-- *hackerrank*
-- *topcoder*
+- *Leetcode*
+- *Hackerrank*
+- *Topcoder*
