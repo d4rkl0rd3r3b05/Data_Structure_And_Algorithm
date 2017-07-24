@@ -11,4 +11,8 @@ public extension String {
     subscript(index: Int) -> String{
         return String(self[self.index(self.startIndex, offsetBy: index)])
     }
+    
+    static func +(lhs : String, rhs : String) -> String {
+        return "\(lhs)\(rhs)"
+    }
 }
