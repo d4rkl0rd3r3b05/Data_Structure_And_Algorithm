@@ -1,3 +1,7 @@
+/*
+ * Get smaller and smallest element of an array.
+ */
+
 public func get2MinimumElements<T : Comparable>(arrayToBeProcessed : [T]) -> (smaller : T, smallest : T)?{
     guard arrayToBeProcessed.count >= 2 else {
         return nil

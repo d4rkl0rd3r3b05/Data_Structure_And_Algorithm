@@ -1,3 +1,7 @@
+/*
+ * Find Highest Occuring Element in an array alongwith its Frequency.
+ */
+
 public func findHighestOccurence<T : Hashable>(_ arrayForOperation : [T]) -> (T?, Int){
     var frequencyHashmap : [T:Int] = [:]
     var largestFrequency = 0
