@@ -1,6 +1,6 @@
 import Foundation
 
-public class ListNode<T> {
+public class ListNode<T> : NSObject{
     var nodeValue : T
     var next : ListNode?
     
@@ -8,9 +8,10 @@ public class ListNode<T> {
         self.nodeValue = value
     }
     
-    public func description() {
-        print("\(self.nodeValue)->", separator : "", terminator : "")
-        self.next?.description()
+    override public var description: String {
+        get{
+            return "\(self.nodeValue)->" + (self.next != nil ?  self.next!.description : "NULL")
+        }
     }
 }
 
